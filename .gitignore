@@ -1,0 +1,9 @@
+node_modules/**/*
+.expo/*
+npm-debug.*
+web-build/
+web-report/
+
+# macOS
+.DS_Store
+yarn.lock

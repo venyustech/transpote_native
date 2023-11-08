@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>424062171210-95hdi2d6k7prs3h9rmcm4ir9nfsormkj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.424062171210-95hdi2d6k7prs3h9rmcm4ir9nfsormkj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBs_9-sinL0n2d6ZJUTAHnLBCtUEsDTjnA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>424062171210</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>br.com.uai88uai.urbana.passageiro</string>
+	<key>PROJECT_ID</key>
+	<string>new-88uai</string>
+	<key>STORAGE_BUCKET</key>
+	<string>new-88uai.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:424062171210:ios:a1ef2e95a11ed67ffa8eb3</string>
+	<key>DATABASE_URL</key>
+	<string>https://new-88uai.firebaseio.com</string>
+</dict>
+</plist>

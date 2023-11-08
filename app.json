@@ -1,0 +1,94 @@
+{
+  "expo": {
+    "name": "88 Uai",
+    "description": "Aplicativo de Mobilidade Urbana",
+    "slug": "88uai",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "notification": {
+      "icon": "./assets/images/push_notification.png"
+    },
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/appIcon.png",
+    "splash": {
+      "image": "./assets/images/splashnew.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "primaryColor": "#3CB371",
+    "backgroundColor": "#3CB371",
+    "ios": {
+      "supportsTablet": true,
+      "usesAppleSignIn": true,
+      "bundleIdentifier": "br.com.uai88uai.urbana.passageiro",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Este app usa sua localização para encontrar motoristas próximos a você.",
+        "NSCameraUsageDescription": "Este app usa a câmera para que você possa inserir uma foto de perfil.",
+        "NSPhotoLibraryUsageDescription": "Este app usa a galeria para que você possa inserir uma foto de perfil.",
+        "ITSAppUsesNonExemptEncryption": false,
+        "UIBackgroundModes": [
+          "fetch"
+        ]
+      },
+      "config": {
+        "googleMapsApiKey": "AIzaSyAsM1Cfjof2J9sJC8OOtNfUJuUMyTR6bvw",
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.424062171210-95hdi2d6k7prs3h9rmcm4ir9nfsormkj"
+        }
+      },
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "buildNumber": "1.0.1"
+    },
+    "android": {
+      "package": "br.com.uai88uai.urbana.passageiro",
+      "versionCode": 2,
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "CAMERA_ROLL"
+      ],
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAsM1Cfjof2J9sJC8OOtNfUJuUMyTR6bvw"
+        }
+      },
+      "useNextNotificationsApi": true
+    },
+    "facebookScheme": "fb00000000000000",
+    "facebookAppId": "00000000000000",
+    "facebookDisplayName": "88uai",
+    "extra": {
+      "firebaseConfig": {
+        "apiKey": "AIzaSyAqFFRNB-J9X6PD6keLS5TkR6WxCbVSuCM",
+        "authDomain": "new-88uai.firebaseapp.com",
+        "databaseURL": "https://new-88uai.firebaseio.com",
+        "projectId": "new-88uai",
+        "storageBucket": "new-88uai.appspot.com",
+        "messagingSenderId": "424062171210",
+        "appId": "1:424062171210:web:58264b6de2a3e0edfa8eb3",
+        "measurementId": "G-DM4E8GXRCY"
+      },
+      "googlemapkey":"AIzaSyAsM1Cfjof2J9sJC8OOtNfUJuUMyTR6bvw",
+      "iosStandaloneAppClientId": "424062171210-95hdi2d6k7prs3h9rmcm4ir9nfsormkj.apps.googleusercontent.com",
+      "androidStandaloneAppClientId": "424062171210-9o7i77v5g5fpscrmjp6dvs72l1oiath6.apps.googleusercontent.com",
+      "cloud_function_server_url":"https://us-central1-new-88uai.cloudfunctions.net/",
+      "cloud_function_server_local": "http://192.168.0.4:5001/new-88uai/us-central1",
+      "production": true
+    }
+  }
+}

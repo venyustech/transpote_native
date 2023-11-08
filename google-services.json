@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "424062171210",
+    "firebase_url": "https://new-88uai.firebaseio.com",
+    "project_id": "new-88uai",
+    "storage_bucket": "new-88uai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424062171210:android:8953cf19a1523b3ffa8eb3",
+        "android_client_info": {
+          "package_name": "br.com.uai88uai.urbana.passageiro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424062171210-9o7i77v5g5fpscrmjp6dvs72l1oiath6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_TE0_nAsHwYK-mVuyuJc2ErOJ9Q0MVyk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424062171210-9o7i77v5g5fpscrmjp6dvs72l1oiath6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
